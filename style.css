@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #282828;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-div {
+    width: 750px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: rgb(50,50,59);
+    background: linear-gradient(0deg, rgba(50,50,59,1) 0%, rgba(40,40,40,1) 60%);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+.box-div {
+    display: flex;
+}
+
+.image-div {
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline;
+}
+
+.boxImg {
+    width: 12rem;
+}
+
+.texts-div {
+    display: inline;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.h3-downlaod {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+div p {
+    font-size: 14px;
+}
+
+.summary-p {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.btn-div {
+    text-align: right;
+}
+
+.download-btn {
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.375);
+}
+
+select {
+    margin-right: 350px;
+}
